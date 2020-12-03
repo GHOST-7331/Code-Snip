@@ -1,8 +1,9 @@
 import React from 'react';
-import {
-  Card, CardImg, CardText, CardBody,
-  CardTitle, CardSubtitle, Button
-} from 'reactstrap';
+import { Card } from 'reactstrap';
+import addForm from './addForm';
+
+
+
 
 const bodyCard = (props) => {
   return (
@@ -14,9 +15,13 @@ const bodyCard = (props) => {
       <div className='row row-6'> 
       <Card className="card-body col-12">
         <div className='btn-container'> 
-        <button className='btn1-card'>save</button>
-        <button className='btn1-card'>Delete</button>
+        <button  className='btn1-card'>Add</button>
+        <button className='btn1-card'>Save</button>
         </div>
+        <div className='inner-card-container'>  
+        <Card className="inner-card-body">
+      </Card>
+      </div>
       </Card>
     </div>
     </div>

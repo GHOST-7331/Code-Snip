@@ -1,69 +1,88 @@
 body {
-background-image: url('./components/images/stars.jpg');
-background-repeat: no-repeat;
-background-size: cover;
- 
+  background-image: url("./components/images/stars.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: 0 0 15px white inset;
+
+}
+
+h3.badge-header {
+    width: 100%;
 }
 
 .badge-header {
-    color: white;
+  color: white;
 }
 
 .badge {
-    box-shadow: 0 0 10px white;
-    background-color: rgba(2, 15, 75, 0.493)!important;
-
+  box-shadow: 0 0 10px white;
+  background-color: rgba(2, 15, 75, 0.493) !important;
 }
 
 .card-body {
-    width: 50%;
-    height: 90vh;
-    margin-top: 15px;
-    margin-bottom: 15px;
-    position: absolute;
-    box-shadow: 0 0 10px white!important;
-    background-color: rgba(2, 15, 75, 0.493)!important;
-    border-radius: 10px;
+width: 1141px;
+height: 100vh;
+margin-top: 7px;
+  box-shadow: 0 0 10px white !important;
+  background-color: rgba(2, 15, 75, 0.493) !important;
+  border-radius: 10px;
+}
+
+.inner-card-container {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+.inner-card-body {
+  position: absolute;
+  width: 80%;
+  height: 80vh;
+  box-shadow: 0 0 10px white !important;
+  background-color: rgba(0, 0, 0, 0.562) !important;
+  border-radius: 10px;
 }
 
 .title {
-    color: white;
+  color: white;
+
 }
 
 .title-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 0px;
 }
 
-
 h3.title {
-    background-color: rgba(2, 15, 75, 0.493)!important;    
-    width: 1141px;
-    box-shadow: 0 0 10px white!important;
-    border-radius: 5px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  background-color: rgba(2, 15, 75, 0.493) !important;
+  width: 1141px;
+  box-shadow: 0 0 10px white !important;
+  border-radius: 5px;
+  margin-top: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .btn-container {
-    display: flex;
-    justify-content: flex-end;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
 }
 
 .btn1-card {
-    box-shadow: 0 0 5px white!important;
-    color: white;
-    background-color:  rgba(2, 15, 75, 0.5);
-    border-radius: 5px;
-    border: none;
-    width: 7%;
-    margin: 5px;
+  box-shadow: 0 0 5px white !important;
+  color: white;
+  background-color: rgba(2, 15, 75, 0.5);
+  border-radius: 5px;
+  border: none;
+  width: 50px;
+  margin: 5px;
 }
 
 .btn1-card:hover {
-    transform: scale(1.1);
-    background-color: rgba(0, 0, 0, 0.24);
+  transform: scale(1.1);
+  background-color: rgba(0, 0, 0, 0.24);
 }
-
